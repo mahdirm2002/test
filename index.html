@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.rtl.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/bootstrap.js"></script>
+	<script src="js/js.js"></script>
+	<title>web design</title>
+	<script>
+		function numberP() {
+			var number = document.getElementById("phoneNumber").value
+			if( number[0] == 0 & number[1]== 9 & number.length == 11)true
+
+			else alert(preventDefault())
+
+			console.log(number[0])
+		}
+
+	</script>
+</head>
+
+
+<body>
+<div id="demo"></div>
+	<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+	<nav class="navbar navbar-dark fixed-top navbar-expand-lg bg-dark">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link active" aria-current="page" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Features</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Pricing</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	<div class="container mt-5 pt-5">
+		<div class="mt-5">
+			<div class="row">
+				<div class="col-4 ">
+					<div class="text-center">
+					  <img src="media/img.jpg" class="rounded-circle mx-auto" >
+					</div>
+					<!-- <img src="media/img.jpg" class="rounded-circle mx-auto img-bio"> -->
+					<h2 class="text-center">Mr.Mahdi Razavi Web designer</h2>
+				</div>	
+				<div class="col-8">
+					<h1>Biographi</h1>
+					<br><br><p>
+						I am a graduate student in the Department of Computer Science at the University of Texas at Dallas graduating in May 2021. I have a Bachelor of Technology degree from the Indian Institute of Technology (IIT) Guwahati.</p>
+
+						<br><p>Previously, I worked at Works Applications, Singapore as a Software Engineer, where I worked on delivering central libraries, microservices and distributed multi-tenant architecture to thousands of developers inside the company who utilized them to build various products for our customers. Aside from work, I am also an open-source enthusiast and have created projects that were listed in GitHub trending.</p>
+
+						<br><p>My interests lie in solving problems related to large-scale distributed software systems.
+					</p>
+					<div class="row">
+						<div class="col-md-6">
+							<h3>Interests</h3>
+							<ul class="ul-interests">
+							<li>Distributed Computing</li>
+							<li>Software Engineering</li>
+							<li>Information Security</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h3>Education</h3>
+							<ul class="ul-edu fa-ul">
+							<li>
+							<!-- <i class="fa-li fas fa-graduation-cap"></i> -->
+							<!-- <div class="description"> -->
+							<!-- <p class="course">MS in Computer Science, 2021</p> -->
+							<!-- <p class="institution">The University of Texas at Dallas</p> -->
+							
+							</li>
+							<li>
+							<!-- <i class="fa-li fas fa-graduation-cap"></i> -->
+							<!-- <div class="description"> -->
+							<!-- <p class="course">BTech, 2016</p> -->
+							<!-- <p class="institution">Indian Institute of Technology Guwahati</p> -->
+							<!-- </div> -->
+							</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+						
+					</div>
+				</div>
+			
+		
+		
+		<div class="mt-5 row">
+		<div class="col-4 ">
+					<h1>sign-in</h1>
+				</div>	
+		<div class="col-8">
+		<form class="row g-3">
+		  <div class="col-md-4">
+			<label for="validationServer01" class="form-label was-validated ">First name</label>
+			<input type="text" class="form-control " id="validationServer01"  required>
+			<div class="valid-feedback">
+			  Looks good!
+			</div>
+		  </div>
+		  <div class="col-md-4">
+			<label for="validationServer02" class="form-label">Last name</label>
+			<input type="text" class="form-control " id="validationServer02"  required>
+			<div class="valid-feedback">
+			  Looks good!
+			</div>
+		  </div>
+		  
+		  <div class="col-md-5">
+			<label for="validationServerUsername" class="form-label">e-male</label>
+			<div class="input-group has-validation">
+			  <span class="input-group-text" id="inputGroupPrepend3">@</span>
+			  <input type="e-male" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+			  <div id="validationServerUsernameFeedback" class="invalid-feedback">
+				Please choose a username.
+			  </div>
+			</div>
+		  </div>
+		  <div class="col-md-4">
+			<label for="validationServer03" class="form-label">City</label>
+			<input type="text" class="form-control " id="validationServer03" aria-describedby="validationServer03Feedback" required>
+			<div id="validationServer03Feedback" class="invalid-feedback">
+			  Please provide a valid city.
+			</div>
+			 </div>
+			<div class="col-md-4">
+			<label for="validationServer03" class="form-label">phon number</label>
+			<input type="text" class="form-control " id="phoneNumber" aria-describedby="validationServer03Feedback"  onblur="validateForm();"  required>
+
+		  </div>
+		   <!-- <div class="mt-5 col-md-4"> -->
+			<!-- <label for="validationServer04" class="form-label">gender</label> -->
+			<!-- <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback" required> -->
+			  <!-- <option selected disabled value="">Male</option> -->
+			  <!-- <option>Famale</option> -->
+			<!-- </select> -->
+			<!-- <div id="validationServer04Feedback" class="invalid-feedback"> -->
+			  <!-- Please select a valid state. -->
+			<!-- </div> -->
+		  <!-- </div> -->
+		  <!-- <div class="col-md-3"> -->
+			<!-- <label for="validationServer05" class="form-label">Zip</label> -->
+			<!-- <input type="text" class="form-control is-invalid" id="validationServer05" aria-describedby="validationServer05Feedback" required> -->
+			<!-- <div id="validationServer05Feedback" class="invalid-feedback"> -->
+			  <!-- Please provide a valid zip. -->
+			<!-- </div> -->
+		  <!-- </div> -->
+		  <div class="col-10 form-floating"> 
+			<label for="floatingTextarea">Comment</label>
+			<textarea class="form-control"  cols="30" rows="5" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+		   </div>
+
+		  <div class="col-12">
+			<div class="form-check">
+			  <input class="form-check-input " type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+			  <label class="form-check-label" for="invalidCheck3">
+				Agree to terms and conditions
+			  </label>
+
+			</div>
+		  </div>
+		  <div class="m-4 col-12">
+			<button class="btn btn-primary" type="submit" onclick="numberP()">Submit form</button>
+		  </div>
+		</form>
+		
+		</div>
+	</div>
+	</div>
+</body>
+</html>
